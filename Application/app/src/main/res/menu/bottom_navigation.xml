@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pulse_bottom"
+        android:icon="@drawable/ic_pulse_device"
+        android:title="Pulse"/>
+    <item
+        android:id="@+id/nav_bp"
+        android:icon="@drawable/ic_bp_device"
+        android:title="Blood Pressure"/>
+    <item
+        android:id="@+id/nav_ecg"
+        android:icon="@drawable/ic_ecg_device"
+        android:title="ECG"/>
+</menu>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BPMonitor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BpMonitor">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/custom_toolbar" />
+
+    <TextView
+        android:id="@+id/bpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="AVOID:\nSmoking\nAlcohol\nFat\nSugar"
+        android:textColor="#932E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bpText3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <TextView
+        android:id="@+id/bpText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="EXERCISE:\n30mins per day"
+        android:textColor="#932E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bpText5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bpText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="SLEEP:\n7 hours per day"
+        android:textColor="#932E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bpText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="INTAKE:\nFruitsVegitables,\nLean meats\nSkinless poultry\nNuts,Fish\nWhole grains\nPlant-based oils\nLow-fat dairy products"
+        android:textColor="#932E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bpText4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+    <TextView
+        android:id="@+id/bpText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="Consultation"
+        android:textColor="#932E2E"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/bpText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bpText4"
+        app:layout_constraintEnd_toStartOf="@+id/bpText4"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bpText4"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/exercise" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bpText3"
+        app:layout_constraintEnd_toStartOf="@+id/bpText3"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bpText3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/diet" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bpText5"
+        app:layout_constraintEnd_toStartOf="@+id/bpText5"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bpText5"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sleep" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bpText"
+        app:layout_constraintEnd_toStartOf="@+id/bpText"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bpText"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/avoid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

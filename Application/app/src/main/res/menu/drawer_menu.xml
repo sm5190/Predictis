@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+<group>
+        <item
+            android:id="@+id/nav_riskZone"
+            android:icon="@drawable/ic_risk"
+            android:title="Risk Zone">
+
+        </item>
+        <item
+            android:id="@+id/nav_deviceConnection"
+            android:icon="@drawable/ic_device"
+            android:title="Device Connection" />
+        <item
+            android:id="@+id/nav_exerciseRoutine"
+            android:icon="@drawable/ic_ecg2"
+            android:title="ECG Monitor" />
+        <item
+            android:id="@+id/nav_blood_pressure"
+            android:icon="@drawable/ic_bp"
+            android:title="Blood Pressure Monitor" />
+        <item
+            android:id="@+id/nav_pulse"
+            android:icon="@drawable/ic_pulse"
+            android:title="Pulse Monitor" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/ic_diet"
+            android:title="Medical Consultation" />
+        <item
+            android:id="@+id/nav_consultation"
+            android:icon="@drawable/ic_consultation"
+            android:title="Emergency Contact" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="History" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

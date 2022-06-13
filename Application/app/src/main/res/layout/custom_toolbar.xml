@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Light_pink"
+    app:popupTheme="@style/Theme.AppCompat">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:foregroundGravity="left"
+            android:src="@drawable/ic_back" />
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/cardiogram1"
+            android:foregroundGravity="right"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+</androidx.appcompat.widget.Toolbar>

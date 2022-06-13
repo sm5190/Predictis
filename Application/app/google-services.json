@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "851648675643",
+    "project_id": "demopredictis",
+    "storage_bucket": "demopredictis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851648675643:android:29e1da2b2c320971b1411e",
+        "android_client_info": {
+          "package_name": "com.example.demopredictis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851648675643-3qeos0liqi7s3o4f7cg5g5spe3mkhj79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTmMvPuwrsOuCFRz8_PBDKVdBZoN5MLw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851648675643-3qeos0liqi7s3o4f7cg5g5spe3mkhj79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

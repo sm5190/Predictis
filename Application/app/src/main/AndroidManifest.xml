@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demopredictis">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/cardiogram1"
+        android:label="Predictis"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DemoPredictis"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".MedicalConsultation"></activity>
+        <activity android:name=".ForgetPasswor" />
+        <activity android:name=".DeviceConnection" />
+        <activity android:name=".RiskZone" />
+        <activity android:name=".BpMonitor" />
+        <activity android:name=".EcgMonitor" />
+        <activity
+            android:name=".PulseMonitor"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".BarChartActivity" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".EmergencyContact" />
+        <activity android:name=".Form1" />
+        <activity android:name=".Verification" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Home"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
